@@ -2,7 +2,7 @@
 
 É uma coleção composta por:
 * Apche 
-* Enginx
+* Nginx
 * php
 * Mysql
 * Proftp
