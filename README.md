@@ -9,7 +9,7 @@
 * phpmyadmin
 
 ## Levantando o cenario
-$ dcker-compose build
-$ docker-compose up -d webserver
-$ docker-compose run rebuid
-$ docker-compose run teste
+* $ dcker-compose build
+* $ docker-compose up -d webserver
+* $ docker-compose run rebuid
+* $ docker-compose run teste
