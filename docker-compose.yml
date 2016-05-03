@@ -1,0 +1,32 @@
+version: '2'
+services:
+  db:
+    image: mysql
+    ports: 
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: myapp
+      MYSQL_USE: dev
+      MYSQL_PASSWORD: 123456
+
+  php: 
+    build: ./php-fpm
+    expose:
+        - "9000"
+    valumes:
+        - ./app:/var/www/app
+        - ./logs/app:/var/www/app/logs
+    links:
+        - db
+  nginx:
+      build: ./nginx
+      ports:
+          - "80:80"
+      links:
+          - php
+      volumes_from:
+          - php
+      volumes:
+          - ./logs/nginx/:/var/log/ngix
+
