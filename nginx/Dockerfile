@@ -2,8 +2,6 @@ FROM nginx:1.10
 
 MAINTAINER Agnaldo Marinho <agnaldoneto@ufpa.br>
 
-COPY sources.list /etc/apt/sources.list
-RUN apt-get update
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY default.conf /etc/nginx/conf.d/default.conf
 
