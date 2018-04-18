@@ -3,12 +3,12 @@
 #------------------------------------------------------------------------------#
 
 ###### Debian Main Repos
-deb http://ftp.br.debian.org/debian/ jessie main contrib non-free 
-deb http://mirror.ufpa.br/debian/    jessie main contrib non-free 
+deb http://ftp.br.debian.org/debian/ stretch main contrib non-free 
+deb http://mirror.ufpa.br/debian/    stretch main contrib non-free 
 
 ###### Debian Update Repos
-deb http://security.debian.org/ jessie/updates main contrib non-free 
+deb http://security.debian.org/ stretch/updates main contrib non-free 
 
 ### nginx
-deb http://nginx.org/packages/debian/ jessie nginx
+deb http://nginx.org/packages/debian/ stretch nginx
 

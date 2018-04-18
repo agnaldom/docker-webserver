@@ -14,7 +14,7 @@ Este repositorio contem ambiente web em docker usado  de exemplo usado no curso 
 As imagem usam repositorio do debian da Universidade Federal do Pará
 
 ```
-deb http://mirror.ufpa.br/debian jessie main contrib non-free 
+deb http://mirror.ufpa.br/debian stretch main contrib non-free 
 ```
 
 ## Configurando Ambiente

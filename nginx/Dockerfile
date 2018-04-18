@@ -1,4 +1,4 @@
-FROM nginx:1.10
+FROM nginx:stable
 
 MAINTAINER Agnaldo Marinho <agnaldoneto@ufpa.br>
 
